@@ -4,11 +4,11 @@
 
 body {
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 header {
-    background-color: #333;
+      background-color:#08a4ac ;
     height: 3em;
     color: #FFF;
     margin-bottom: 1em;
@@ -45,11 +45,14 @@ section {
 }
 
 section h2 {
-    font-size: 3em;
+     font-size: 3em;
     display: block;
     padding-bottom: .5em;
     border-bottom: 1px solid #ccc;
     margin-bottom: .5em;
+    color:  #165c5f;
+        text-align: center;
+    margin-top:25px;
 }
 
 table {
@@ -68,9 +71,12 @@ th {
 
 th {
     font-weight: bold;
-    background-color: #EEE;
+    background-color:  #d2eade ;
 }
-
+td:hover
+ {
+  background-color:  #d3fae8
+;
 label {
     color: #555;
     display: block;
@@ -92,27 +98,26 @@ label {
 }
 
 .grupo {
-    width: 32%;
+     width: 23%;
     display: inline-block;
     padding: 10px 0px;
+    margin-bottom: 20px;
 }
 
 button {
-    padding: .5em 2em;
-    border: 0;
-    border-bottom: 3px solid;
+    padding: .2em 2.5em;
+    border: 2px solid;
     font-size: 1.2em;
     cursor: pointer;
     margin: 0;
     margin-top: -3px;
     color: #fff;
-    background-color: #0c8cd3;
-    border-color: #04324c;
-    width: 20%;
+    background-color: #7dc0c3;
+    border-color:#198085;
+    width: 30%;
     display: block;
     clear: both;
     margin: 10px 0px;
-}
 
 button:active {
     margin-top: 0px;
